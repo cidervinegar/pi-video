@@ -26,11 +26,6 @@ def control2():
     time.sleep(5)
     cam.capture('Test.jpg')
     cam.stop_preview()
-       
-        
+
 
 app.run(debug=True,port=8000,host="")
-
-  
-  
-   
